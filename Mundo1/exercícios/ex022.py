@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'{nome} em letras maiúsculas é {nome.upper()}')
+print(f'{nome} em letras minúsculas é {nome.lower()}')
+print(f'{nome} tem exatamente {len(nome) - nome.count(" ")} letras.')
+lista = nome.split()
+print(f'O seu primeiro nome é {lista[0]} e ele tem {len(lista[0])} letras')
+# print(f'O seu primeiro nome tem {nome.find(" ")} letras.')

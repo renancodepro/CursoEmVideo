@@ -1,0 +1,5 @@
+valor = float(input('Valor do produto R$'))
+avista = valor - (valor * 8 / 100)
+aprazo = valor + (valor * 8 / 100)
+print(f'Seu produto à vista tem o desconto de 8% e fica por R${avista:.2f}')
+print(f'Seu produto a prazo tem acrescimo de 8% e fica por R${aprazo:.2f}')

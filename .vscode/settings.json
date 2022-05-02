@@ -1,0 +1,7 @@
+{
+                       "editor.formatOnSave": true,
+                       "files.autoSave": "afterDelay",
+                       "python.linting.flake8Enabled": true,
+                       "python.linting.pylintEnabled": false,
+                       "python.linting.enabled": true
+}
