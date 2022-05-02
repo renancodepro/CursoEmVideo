@@ -82,6 +82,6 @@ b = (5, 8, 1, 2)
 c = b + a
 print(c.index(8))  # posição de 8 NA TUPLA c '''
 
-pessoa = ('Gustavo', 39, 'M', 89.88)
+'''pessoa = ('Gustavo', 39, 'M', 89.88)
 del(pessoa)  # deleta a tupla
-print(pessoa)
+print(pessoa)'''
