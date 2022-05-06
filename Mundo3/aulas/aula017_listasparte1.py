@@ -21,7 +21,7 @@ num.sort(reverse=True)  # coloca em ordem reversa a lista
 num.insert(2, 2)
 num.remove(2)  # remove o valor dois da lista. Porém se tiver mais de um 2
 # ele só removera o primeiro 2
-if 4 in num:  # o 4 não está na lista enrão se o remove for usando
+if 4 in num:  # o 4 não está na lista então se o remove for usando
     num.remove(4)  # isolado para isso gera um erro.
 else:
     print('Não achei o número 4')
