@@ -44,7 +44,8 @@ for c, v in enumerate(valores):  # enumerate pega tanto a chave quanto o valor
 print('cheguei ao final da lista.')
 
 a = [2, 3, 4, 7]
-# b = a # cria uma ligação entre b e a, e qualquer auteração em uma lista afeta a outra
+# b = a # cria uma ligação entre b e a, e qualquer auteração em uma
+# lista afeta a outra
 b = a[:]  # pega todos os valores de a e copia em b
 b[2] = 8
 print(f'Lista A: {a}')
